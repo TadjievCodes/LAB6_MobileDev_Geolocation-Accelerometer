@@ -1,0 +1,51 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+        
+        <title>LAB_6_Tadjiev_Mobile_Dev</title>
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+    </head>
+
+    <body>
+        <main>
+        <div>
+            <br/>
+            <h1>ACCELEROMETER</h1>
+            <h3>ABSOLUTE</h3>
+            <div id='absolute'></div>
+
+            <h3>ALPHA</h3>
+            <div id='alpha'></div>
+
+            <h3>BETA</h3>
+            <div id='betta'></div>
+
+            <h3>GAMMA</h3>
+            <div id='gamma'></div>
+
+            <h3>ACCELERATION</h3>
+            <div id='acceleration'></div>
+        </div>
+
+        <div>
+            <br/>
+            <br/>
+                <h1>GEOLOCATION</h1>
+                <div>
+                    <button id="get-geo-button">Get My Position</button><br/>
+                    <button id="start-geo-watch-button">Start My Position</button><br/>
+                    <button id="end-geo-watch-button">Stop My Position</button>
+                </div>
+        
+                <div id="geolocation"></div>
+            </div>
+        <script src="cordova.js"></script>
+        <script src="js/index.js"></script>
+    </main>
+    </body>
+</html>
